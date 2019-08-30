@@ -11,6 +11,11 @@
     overflow: hidden;
 }
 
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .upp-text {
     font-size: 20px;
 }
