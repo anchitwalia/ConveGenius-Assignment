@@ -1,0 +1,41 @@
+body {
+    font-family: Lato,sans-serif;
+    background-color: #f2f2f2;
+}
+
+.top-pad {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    background-color: #f2f2f2;
+}
+
+.btn {
+    position: relative;
+    background-color: transparent;
+}
+
+.example-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.side-nav {
+    width: 254px;
+    background-color: #1976d2;
+    
+}
+
+.side-text {
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.cross-pos {
+    position: relative;
+    left: 150px;
+}

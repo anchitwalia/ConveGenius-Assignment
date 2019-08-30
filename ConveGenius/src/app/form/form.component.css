@@ -1,0 +1,15 @@
+.full-width {
+    width: 100%;
+}
+
+.mat-stroked-button {
+    background-color: #43a047;
+    color: #ffffff;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    padding-bottom: 10px;
+}

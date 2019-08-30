@@ -1,0 +1,84 @@
+.card {
+    width: 100%;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 80px -40px rgba(0,0,0,.53);
+    box-shadow: 0 0 80px -40px rgba(0,0,0,.53);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.upp-text {
+    font-size: 20px;
+}
+
+.dash {
+    border-top: 3px solid #fff;
+    display: flex;
+    align-content: left;
+    width: 20px;
+    
+}
+
+.bot-text {
+    font-size: 15px;
+}
+
+
+.pad-bot {
+    color: #757575;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.form-top {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+.text-container {
+    color: #dbdbdb;
+    background-image: url('../../assets/images/form-contactus.png');
+    background-size: cover;
+    padding-left: 48px;
+    padding-right: 20px;
+    padding-top: 52px;
+    background-position-x: center;
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+    padding-bottom: 80%;
+}
+
+@media (max-width: 991px) {
+    .text-container {
+        width: 100%;
+        color: #dbdbdb;
+        background-image: url('../../assets/images/form-contactus.png');
+        background-size: auto;
+        padding-left: 48px;
+        padding-right: 20px;
+        padding-top: 52px;
+        background-position-x: initial;
+        clip-path: polygon(0 0,100% 0,100% 100%,0 95%);
+        padding-bottom: 8%;
+    }
+
+    .upp-text {
+        font-size: 18px;
+    }
+
+    .bot-text {
+        font-size: 14px;
+    }
+
+    .form-top {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+}

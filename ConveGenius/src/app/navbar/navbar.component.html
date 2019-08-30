@@ -1,0 +1,31 @@
+<mat-toolbar class="transparent" [class.app-toolbar] = "Show">
+    <mat-toolbar-row>
+        <a class="navbar-brand" href="#">
+            <img src="../../assets/images/logo.png" width="30" height="30" alt="">
+        </a>
+        <span *ngIf="size">ConveGenius</span>
+        <div *ngIf="size" class="right">
+            <div>
+                <button mat-stroked-button class="no-border">Home</button>
+            </div>
+            <div>
+                <button mat-stroked-button class="no-border" [matMenuTriggerFor]="menu">ABOUT US</button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item>Our Vision</button>
+                    <button mat-menu-item>Contact Us</button>
+                </mat-menu>
+            </div>
+            <div>
+                <button mat-stroked-button class="no-border" [matMenuTriggerFor]="menu1">IMPACT DASHBOARDS</button>
+                <mat-menu #menu1="matMenu">
+                    <button mat-menu-item>Login</button>
+                    <button mat-menu-item>View Demo</button>
+                </mat-menu>
+            </div>
+            <div>
+                <button mat-stroked-button class="contact-us">CONTACT US</button>
+            </div>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+

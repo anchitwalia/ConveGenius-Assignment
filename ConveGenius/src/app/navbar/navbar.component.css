@@ -1,0 +1,56 @@
+.transparent {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.app-toolbar {
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 10000;
+    background-image: linear-gradient(to right, #6FA38B, #3B3E9C);
+}
+
+.right {
+    display: flex;
+    position: relative;
+    left: 670px;
+}
+
+.flt {
+    float: right;
+}
+
+.no-border {
+    border-color: transparent;
+}
+
+.contact-us {
+    border-color: #ffffff;
+}
+
+@media (max-width: 1350px) {
+    .right {
+        display: flex;
+        position: relative;
+        left: 550px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .right {
+        display: flex;
+        position: relative;
+        left: 400px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .right {
+        display: flex;
+        position: relative;
+        left: 350px;
+    }
+}
+
